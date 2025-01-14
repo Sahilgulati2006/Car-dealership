@@ -1,32 +1,17 @@
-# Dealers Management System
+# Dealership Vehicle Management Tool
 
-This project is a Python-based vehicle dealership management system. It provides functionalities to manage a list of vehicles, including displaying details, adding, removing, comparing, and searching for vehicles, as well as applying discounts.
+This project is a command-line tool designed to assist dealerships in managing their vehicle inventory effectively. Users can add, remove, view, compare, and search vehicles, among other functionalities.
 
 ## Features
 
-1. **Display Menu**:
-   - Shows a menu with options for managing vehicles.
+- **View Inventory**: Display all vehicles in the dealership's inventory.
+- **Add New Vehicles**: Add vehicles to the inventory with relevant details.
+- **Remove Vehicles**: Remove vehicles from the inventory by their ID.
+- **Search Vehicles**: Search for vehicles within a specified price range.
+- **Apply Discounts**: Apply percentage-based discounts to specific vehicles.
+- **Compare Vehicles**: Compare details of two vehicles side-by-side.
 
-2. **Initialize**:
-   - Creates and initializes a list of vehicles with details like make, model, year, mileage, and price.
+## Technologies Used
 
-3. **Display**:
-   - Displays a table with details of all vehicles.
-
-4. **Info**:
-   - Provides statistics on the vehicles, such as the number of vehicles, price ratio, mean price, etc.
-
-5. **Remove Vehicle**:
-   - Removes a vehicle from the list by ID.
-
-6. **Add New Vehicle**:
-   - Allows adding a new vehicle with details entered by the user.
-
-7. **Compare Vehicles**:
-   - Compares two vehicles based on make, year, and price.
-
-8. **Search Vehicles**:
-   - Finds vehicles within a specified price range.
-
-9. **Apply Discount**:
-   - Applies a discount to a vehicle's price by ID.
+- **Python**: Core language for implementation.
+- **dealer_tool**: A custom module for handling vehicle operations.
